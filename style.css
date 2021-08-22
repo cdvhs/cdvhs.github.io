@@ -3,13 +3,16 @@
   src: url('font.ttf') format('truetype');
 }
 
-h1 {
+p {
 font-family: "MyWebFont";
 position: absolute;
 top: 50%;
 left: 50%;
+
 transform: translate(-50%, -50%);
-color: white;
+color: red;
+display: inline-block;
+animation: color-change 0.5s infinite, 1s shake infinite;
 }
 
 body {
@@ -21,4 +24,18 @@ body {
   height: 100vh;
   padding:0;
   margin:0;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  10% { color: white; }
+  20% { color: red; }
+}
+
+@keyframes shake {
+  0% { transform: translate(-50%, -47%); }
+  5% { transform: translate(-49%, -48%); }
+  10% { transform: translate(-47%, -49%); }
+  20% { transform: translate(-48%, -47%); }
+  100% { transform: translate(-47%, -49%); }
 }
