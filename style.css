@@ -12,7 +12,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 color: red;
 display: inline-block;
-animation: color-change 0.5s infinite, 1s shake infinite;
+animation: color-change 0.5s infinite, 0.1s shake infinite;
 }
 
 body {
@@ -33,9 +33,9 @@ body {
 }
 
 @keyframes shake {
-  0% { transform: translate(-50%, -47%); }
-  5% { transform: translate(-49%, -48%); }
-  10% { transform: translate(-47%, -49%); }
-  20% { transform: translate(-48%, -47%); }
-  100% { transform: translate(-47%, -49%); }
+  0% { transform: translate(-49.5%, -49.8%); }
+  1% { transform: translate(-49.2%, -48.7%); }
+  2% { transform: translate(-48.9%, -47.5%); }
+  3% { transform: translate(-45.5%, -48.78%); }
+  4% { transform: translate(-49.67%, -49%); }
 }
