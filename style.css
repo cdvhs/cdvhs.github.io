@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'Arial';
+  src: url('stuff/font.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ArialThin';
+  src: url('stuff/arial.ttf') format('truetype');
+}
+
+body {
+  background-image: url('stuff/stone.png');
+  margin: auto;
+
+}
+
+
+.menu {
+  background-image: url('stuff/dirt.png');
+  padding-right: 350px;
+}
+
+.menu img {
+  padding-bottom: 2px;
+  padding-left: 300px;
+  margin: auto;
+}
+
+.menu a {
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Arial";
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+  padding-bottom: 45px;
+
+}
+
+.menu b {
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Arial";
+  font-size: 16px;
+  color: #99a1ec;
+  text-decoration: none;
+  padding: 5px;
+  padding-bottom: 45px;
+
+}
+
+.menu c {
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Arial";
+  font-size: 16px;
+  color: #99a1ec;
+  text-decoration: none;
+  padding-left: 300px;
+  padding-bottom: 40px;
+
+}
+
+.loginreg {
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Arial";
+  font-size: 18px;
+  color: LightBlue;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+.downloads img {
+  height: 277px;
+  width: 278px;
+  padding-left: 1140px;
+  padding-top: 65px;
+}
+
+.downloads {
+  position: relative;
+}
+.downloads a {
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Arial";
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  height: 100px;
+  width: 50px;
+  padding-left: 1215px;
+  padding-top: 55px;
+
+
+}
+
+.ytvid {
+  height: 450px;
+  width: 630px;
+  display: inline-grid;
+  margin-left: 285px;
+  margin-top: 100px;
+}
+
+.ytvid h6 {
+  font-family: "ArialThin";
+  font-size: 12px;
+  color: #dececf;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.b {
+  height: 500px;
+  width: 300px;
+  display: inline-grid;
+  margin-left: 215px;
+  padding-top: 70px;
+
+}
+
+.b a {
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Arial";
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 250px;
+}
+
+.b img {
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+.container {
+
+}
