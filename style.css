@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('font.ttf') format('truetype');
+}
+
+p {
+font-family: "MyWebFont";
+position: absolute;
+top: 50%;
+left: 50%;
+
+transform: translate(-50%, -50%);
+color: red;
+display: inline-block;
+animation: color-change 0.5s infinite, 0.1s shake infinite;
+}
+
+body {
+  background-image: url('gif.gif');
+  background-size: cover;
+
+
+
+  height: 100vh;
+  padding:0;
+  margin:0;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  10% { color: white; }
+  20% { color: red; }
+}
+
+@keyframes shake {
+  0% { transform: translate(-49.5%, -49.8%); }
+  1% { transform: translate(-49.2%, -48.7%); }
+  2% { transform: translate(-48.9%, -47.5%); }
+  3% { transform: translate(-45.5%, -48.78%); }
+  4% { transform: translate(-49.67%, -49%); }
+}
