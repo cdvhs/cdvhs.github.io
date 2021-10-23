@@ -5,18 +5,18 @@ body {
 .command {
    color: #00ff00;
    font-family: 'Noto Sans Mono', monospace;
-   overflow: hidden; /* Ensures the content is not revealed until the animation */
-   white-space: nowrap; /* Keeps the content on a single line */
-   letter-spacing: .15em; /* Adjust as needed */
-   animation:
-   typing 3.5s steps(60, end);
+
 }
 
 
-.cmdgiven {
+body small {
   color: #ffffff;
   font-family: 'Noto Sans Mono', monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
   letter-spacing: .15em; /* Adjust as needed */
+  animation:
+  typing 3.5s steps(60, end);
 }
 
 body h2 {
@@ -24,8 +24,9 @@ body h2 {
   font-family: 'Noto Sans Mono', monospace;
   letter-spacing: .15em; /* Adjust as needed */
   font-size: 15px;
+  text-align: center;
+  width: 100%;
 }
-
 
 .blinking-cursor {
   font-weight: 100;
@@ -96,4 +97,47 @@ body h2 {
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
+}
+@keyframes "come" {
+  from, to {
+    color: transparent;
+  }
+  100% {
+    color: white;
+  }
+}
+@-moz-keyframes come {
+  from, to {
+    color: transparent;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "come" {
+  from, to {
+    color: transparent;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "come" {
+  from, to {
+    color: transparent;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@-o-keyframes "come" {
+  from, to {
+    color: transparent;
+  }
+  100% {
+    color: white;
+  }
 }
