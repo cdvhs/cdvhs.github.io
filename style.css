@@ -12,10 +12,14 @@ body h2 {
   color: white;
   font-family: 'Pacifico', cursive;
   font-size: 18px;
+  position: fixed;
 
 }
 body {
   background-image: url('bg.gif');
   background-size: cover;
 
+  height: 100vh;
+  padding:0;
+  margin:0;
 }
